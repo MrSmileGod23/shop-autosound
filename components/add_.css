@@ -1,0 +1,44 @@
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-size: 25px;
+    padding: 20px;
+    margin: 0  auto;
+    border-radius: 20px;
+    width: 600px;
+    background-color: rgb(255, 255, 255);
+  }
+  form div{
+    display: flex;
+    justify-content: space-between;
+    margin: 8px 0;
+  }
+  .group        { 
+    position:relative; 
+    margin-bottom:45px; 
+  }
+  option,select,input[type="text"],[type="number"],[type="file"]{
+    font-family: Verdana, sans-serif;
+    font-size:18px;
+    padding:10px 10px 10px 5px;
+    display:block;
+    width:270px;
+    border:none;
+    border:1px solid #757575;
+  }
+  
+  input[type="submit"]{
+    font-family: Verdana, sans-serif;
+    font-size:18px;
+    margin: 0 auto;
+  }
+  form a{
+  margin: 0 auto;
+  padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #FFFF;
+  color: #2D2A2E;
+  text-decoration: none;
+  border: 3px solid black;
+  }

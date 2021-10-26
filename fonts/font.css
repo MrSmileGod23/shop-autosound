@@ -1,0 +1,15 @@
+
+body{
+  font-family:Palatino, URW Palladio L, serif;
+}
+
+@font-face {
+  font-family: "efnbass";
+  font-style: normal;
+  font-weight: 400;
+  src: local("efnbass"),
+       url("./efnbass.ttf") format("ttf"),
+       url("./efnbass.woff") format("woff"),
+       url("./efnbass.otf") format("otf");
+}
+

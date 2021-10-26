@@ -1,0 +1,149 @@
+body{
+  padding: 0;
+  margin: 0;
+  background-color: #2D2A2E;
+}
+* {
+  box-sizing:border-box;
+}
+.form_sortiorovka{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  padding: 20px;
+
+  height: 70px;
+  width: 100%;
+  background-color: #F6F6F6;
+}
+
+div.container_menu a{
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+  font-size: 100%;
+ padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #FFFF;
+  color: #2D2A2E;
+  text-decoration: none;
+  border: 3px solid black;
+}
+table.table-3 a{
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  align-items: center;
+  text-align: center;
+  line-height: 25px;
+  font-size: 100%;
+ padding: 5px 10px;
+  border-radius: 10px;
+  background-color: #FFFF;
+  color: #2D2A2E;
+  text-decoration: none;
+  border: 3px solid black;
+}
+input,label,select{
+  font-family:Palatino, URW Palladio L, serif;
+}
+input[type="submit"]{
+  text-align: center;
+  line-height: 25px;
+  font-size: 15px;
+  width:120px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: #FFFF;
+  color: #706175;
+  text-decoration: none;
+}
+.delete_tovars{
+  margin-top: -20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 25px;
+  width: 100%;
+  border-radius: 0px 0px 20px 20px;
+  background-color: #F6F6F6;
+  margin-bottom: 40px;
+  padding-bottom: 10px;
+}
+table.table-3 img{
+  width: 150px;
+}
+    table.table-3 {
+  
+      table-layout: fixed;
+      text-align: center;
+      color: #FFF;
+      border-collapse: collapse;
+      border-spacing: 0;
+      font-size: 20px;
+  }
+  
+#table_cat{
+  width: 100%;
+}
+  
+  table.table-3 tr {
+      background-color: #2D2A2E;
+  }
+  
+  table.table-3 th,
+  table.table-3 td {
+    line-height: 100%;
+      text-align: center;
+    border: 1px solid #ddd;
+  }
+  @media screen and (max-width: 1600px) {
+    .form_sortiorovka{
+      font-size: 15px;
+      flex-direction: column;
+      height: 300px;
+      padding:0;
+    }
+      table.table-3 {
+      border: 0;
+      }
+  
+    
+    
+      table.table-3 thead {
+        border: none;
+        clip: rect(0 0 0 0);
+        height: 1px;
+        margin: -1px;
+        overflow: hidden;
+        padding: 0;
+        position: absolute;
+        width: 1px;
+      }
+    
+      table.table-3 tr {
+        border-bottom: 1px solid #ddd;
+        display: block;
+         margin-bottom: 30px;
+      }
+    
+    table.table-3 td {
+        display: block;
+        text-align: right;
+    }
+    
+    table.table-3 td::before {
+        content: attr(data-label);
+        float: left;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+      table.table-3 td:last-child {
+        border-bottom: 0;
+      }
+  }

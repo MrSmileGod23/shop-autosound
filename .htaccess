@@ -1,0 +1,6 @@
+<IfModule dir_module>
+    DirectoryIndex index.php
+</IfModule>
+<filesMatch "\.(php|html|css|js)$">
+AddDefaultCharset UTF-8
+</filesMatch>
